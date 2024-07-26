@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -19rem;
+    left: 36rem;
+    height: 10rem;
+    width: 20rem;
+    animation: moveImage 0s linear infinite;
+}
+#cloudA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+    height: 11rem;
+    width: 10rem;
+    animation: moveImage 4s linear infinite;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    
+    
+    
+}
+
+@keyframes moveImage {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(50px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+#sunn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -7rem;
+    left: 77rem;
+    height: 11rem;
+    width: 10rem;    animation: moveImage 4s linear infinite;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    
+    
+    
+}
+
+@keyframes moveImage {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(50px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -15rem;
+    left: 7rem;
+    width: 80rem;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    color: rgb(16, 69, 50);
+}
+form{     font-size: 1.2rem;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    color: rgb(16, 69, 50);
+   
+}
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -12rem;
+    left: 26rem;
+        font-size: 1.2rem;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    color: rgb(16, 69, 50);
+    height: 3.2rem;
+    width: 30rem;
+    border-radius: 0.8rem;
+    border-style: solid;
+    border-color: rgb(27, 28, 28);
+}
+
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -15rem;
+    left: 57.5rem;
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 0.4rem;
+    border-style: solid;
+    border-color: rgb(1, 65, 33);
+    background-color: rgb(1, 65, 33);
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    padding: 0.6rem 1rem;
+}
+
+#weather-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -11rem;
+    left: 4rem;
+    width: 80rem;
+    font-size: 2rem;
+    font-family:"Trirong";
+    font-weight: 600;
+    color: rgb(0, 73, 31);
+    padding: 1rem 1rem;
+}
+
+
+
+
